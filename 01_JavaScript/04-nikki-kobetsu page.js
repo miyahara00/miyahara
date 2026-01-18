@@ -1,4 +1,4 @@
-fetch('../03_json/nikki.json')
+fetch('../03_JSON/nikki.json')
     .then(res => res.json())
     .then(files => {
         const list = document.getElementById('daylist');
