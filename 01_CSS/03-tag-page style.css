@@ -1,0 +1,40 @@
+/* 2.白背景 2個目以降 */
+.white + .white {
+    margin-top: 20px;
+}
+
+
+/* 3.一覧 文字 */
+.white .tag-text {
+    /* 色 */
+    color: #7c7c7c;
+
+    /* 横いっぱいに置く */
+    display: block;
+
+    /* 文字情報 */
+    font-family: "Zen Maru Gothic";
+    font-size: 20px;
+    text-align: left;
+    font-style: normal;
+}
+
+
+/* 3.一覧 チェックボックス */
+.white .tag-text label {
+    margin-right: 50px;
+}
+
+.white .tag-text input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.white .tag-text input[type="radio"] {
+    margin-right: 10px;
+}
+
+#radioBox label {
+    margin-right: 40px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
