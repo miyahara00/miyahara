@@ -1,0 +1,49 @@
+/* 1.ページ全体 背景 */
+body {
+    background-color: #e7dbd2;
+}
+
+
+/* 2. text */
+.white .kobetsu-text {
+    /* 色 */
+    color: #7c7c7c;
+
+    /* 横に割り込む */
+    display: flex;
+
+    /* 位置 */
+    margin-left: 20px;
+    margin-top: 40px;
+
+    /* 文字情報 */
+    font-family: "Zen Maru Gothic";
+    font-size: 19.5px;
+    line-height: 2.5;
+
+    font-style: normal;
+}
+
+
+/* 2. リンク */
+#titlelist a {
+    /* 色 */
+    color: #7c7c7c;
+    
+    /* 位置 */
+    margin-right: 20px;
+
+    /* 下線 */
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+    text-underline-offset: 6px;
+}
+
+
+/* 2. リストの・を削除 */
+#titlelist,
+#daylist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
