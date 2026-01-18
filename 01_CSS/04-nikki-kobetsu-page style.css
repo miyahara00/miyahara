@@ -1,0 +1,48 @@
+/* 1.背景 ページ全体 */
+body {
+    background-color: #e7dbd2;
+}
+
+
+/* 3.日記タイトル */
+.nikki-title {
+    box-sizing: border-box;
+
+    /* 色 */
+    color: #7c7c7c;
+
+    /* 横いっぱいに置く */
+    display: block;
+
+    /* 位置 */
+    margin: 30px;
+
+    /* 文字情報 */
+    font-family: "Zen Maru Gothic";
+    font-size: 30px;
+    text-align: left;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+
+/* 3.日記内容 */
+.nikki-text {
+    box-sizing: border-box;
+
+    /* 色 */
+    color: #7c7c7c;
+
+    /* 横いっぱいに置く */
+    display: block;
+
+    /* 位置 */
+    margin: 30px;
+
+    /* 文字情報 */
+    font-family: "Zen Maru Gothic";
+    font-size: 20px;
+    text-align: left;
+    font-style: normal;
+    line-height: 2;
+}
