@@ -1,0 +1,24 @@
+/* 位置決め */
+#thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* 3.ハコ */
+.img-box {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+}
+
+
+/* 3.切り取り */
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
