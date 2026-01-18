@@ -21,7 +21,7 @@ fetch('../03_JSON/RAKUGAKI.json')
 
             // クリックで個別ページに飛ぶ (?id=〇 自動付与)
             img.addEventListener('click', () => {
-                window.location.href = `04-RAKUGAKI-kobetsu page.html?id=${art.id}`;
+                window.location.href = `04-rakugaki-kobetsu page.html?id=${art.id}`;
             });
 
             // ドラッグ禁止
