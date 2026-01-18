@@ -1,0 +1,145 @@
+/* 2.白背景 */
+.white {
+    /* サイズ */
+    width: 1600px;
+}
+
+/* 3.イラストタイトル */
+.illust-title {
+    /* 色 */
+    color: #7c7c7c;
+
+    /* サイズ */
+    width: 100%;
+
+    /* 文字情報 */
+    font-family: "Zen Maru Gothic";
+    font-size: 50px;
+    text-align: left;
+    font-style: normal;
+}
+
+
+/* 3.絵 */
+.illust {
+    /* 色 */
+    background-color: #f3f3f3;
+
+    /* 位置 */
+    margin-top: 30px;
+    margin-left: 30px;
+
+    /* サイズ */
+    width: 1100px;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+
+    /* はみ出し部分を隠す */
+    overflow: hidden;
+}
+
+
+/* 3.キャプション */
+.illust-caption {
+    /* 色 */
+    color: #7c7c7c;
+
+    /* サイズ */
+    height: auto;
+
+    /* 文字情報 */
+    font-family: "Zen Maru Gothic";
+    font-size: 18px;
+    text-align: left;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+
+/* 3.タグデザイン */
+.illust-tag {
+    position: relative;
+
+    /* 色 */
+    background-color: #e7dbd2;
+
+    /* 横いっぱいに置く */
+    display: block;
+
+    /* 位置 */
+    margin-top: 40px;
+    margin-bottom: -25px;
+
+    /* 中身の位置 */
+    padding: 10px 0 10px 50px;
+
+    /* 影 */
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+
+    /* 四隅カット */
+    clip-path: polygon(10px 0, 100% 0, 100% 100%, 10px 100%, 0 calc(100% - 10px), 0 10px);
+}
+
+.illust-tag::before {
+    position: absolute;
+    content: '';
+
+    /* 色 */
+    background: #ffffff;
+
+/* 位置 */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 5%;
+
+    /* 直径 */
+    width: 8px;
+    height: 8px;
+
+    /* 角丸 */
+    border-radius: 50%;
+
+    /* 重なっても邪魔にならない */
+    pointer-events: none;
+}
+
+
+/* 3.タグ文字 */
+.illust-tag {
+    /* 色 */
+    color: #000;
+
+    /* 文字情報 */
+    font-family: "Zen Maru Gothic";
+    font-size: 17px;
+    text-align: left;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+
+/* 3.見た目調整用 */
+.wrap {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 30px;
+}
+
+#imageArea {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 左コンテンツ */
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 右コンテンツ */
+.right {
+    display: flex;
+    flex-direction: column;
+}
