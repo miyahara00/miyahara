@@ -79,7 +79,7 @@ async function updateList() {
     // 選択カテゴリのJSONをまとめて取得
     let items = [];
     if (illustCheckbox.checked) items = items.concat(await loadJson('../03_JSON/illust.json'));
-    if (rakugakiCheckbox.checked) items = items.concat(await loadJson('../03_JSON/rakugaki.json'));
+    if (rakugakiCheckbox.checked) items = items.concat(await loadJson('../03_JSON/RAKUGAKI.json'));
 
     // タグで絞り込み
     if (selectedTag) {
