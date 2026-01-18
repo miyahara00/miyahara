@@ -1,0 +1,26 @@
+        {
+            "id": 3,
+            "title": "自探索者Log",
+            "image": [
+                "../04_image/output_images/illust/IMG_0883.png",
+                "../04_image/output_images/illust/IMG_1055.png",
+                "../04_image/output_images/illust/IMG_3886.png"
+            ],
+            "caption": "過去Log",
+            "tag": ["illust", "OC", "探索者"]
+        },
+
+
+
+        {
+            "id": 3,
+            "title": "自探索者らくがきLog",
+            "image": [
+                "../04_image/output_images/RAKUGAKI/IMG_2829.png",
+                "../04_image/output_images/RAKUGAKI/IMG_2956.png",
+                "../04_image/output_images/RAKUGAKI/IMG_3368.png",
+                "../04_image/output_images/RAKUGAKI/IMG_3934.png"
+            ],
+            "caption": "シナリオのネタバレはないです",
+            "tag": ["RAKUGAKI", "OC", "探索者"]
+        },
