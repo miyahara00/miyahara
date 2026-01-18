@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('../03_json/nikki.json')
+    fetch('../03_JSON/nikki.json')
         .then(res => {
             if (!res.ok) throw new Error('nikki.json 読み込み失敗');
             return res.json();
