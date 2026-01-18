@@ -14,7 +14,7 @@ async function loadJson(path) {
 // ラジオボタン生成
 async function generateRadios() {
     const illustData = await loadJson('../03_JSON/illust.json');
-    const rakugakiData = await loadJson('../03_JSON/rakugaki.json');
+    const rakugakiData = await loadJson('../03_JSON/RAKUGAKI.json');
 
     const excludeTags = ['illust', 'RAKUGAKI'];
     const tagsSet = new Set();
