@@ -2,7 +2,8 @@
     "arts": [{
             "id": 1,
             "title": "テラゾーさんお誕生日Log",
-            "image": ["../04_image/output_images/illust/IMG_4266.png",
+            "image": [
+                "../04_image/output_images/illust/IMG_4266.png",
                 "../04_image/output_images/illust/IMG_2820.png",
                 "../04_image/output_images/illust/IMG_1378.png",
                 "../04_image/output_images/illust/IMG_0110.png"
@@ -35,14 +36,18 @@
         {
             "id": 5,
             "title": "OC",
-            "image": "../04_image/output_images/illust/IMG_3389.png",
+            "image": [
+                "../04_image/output_images/illust/IMG_3389.png"
+            ],
             "caption": "過去絵です",
             "tag": ["illust", "OC"]
         },
         {
             "id": 6,
             "title": "ソラちゃん",
-            "image": "../04_image/output_images/illust/IMG_4396.png",
+            "image": [
+                "../04_image/output_images/illust/IMG_4396.png"
+            ],
             "caption": "過去絵です",
             "tag": ["illust", "プリキュア", "ひろプリ"]
         }
