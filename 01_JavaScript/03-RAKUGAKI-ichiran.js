@@ -1,4 +1,4 @@
-fetch('../03_json/RAKUGAKI.json')
+fetch('../03_JSON/RAKUGAKI.json')
     .then(res => res.json())
     .then(data => {
         const gallery = document.getElementById('thumbnail');
