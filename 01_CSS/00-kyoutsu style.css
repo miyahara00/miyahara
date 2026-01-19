@@ -7,9 +7,6 @@ body {
     user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
-
-    /* 中身の位置 */
-    padding: 40px;
 }
 
 /* カーソルを変更 */
