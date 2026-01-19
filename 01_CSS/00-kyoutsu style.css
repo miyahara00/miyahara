@@ -5,6 +5,8 @@ body {
 
     /* 文字選択禁止 */
     user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
 
     /* 中身の位置 */
     padding: 40px;
@@ -14,6 +16,15 @@ body {
 a,
 #thumbnail img {
     cursor: pointer;
+}
+
+/* 長押し禁止 */
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-touch-callout: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
 
