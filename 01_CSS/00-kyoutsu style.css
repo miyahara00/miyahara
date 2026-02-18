@@ -28,6 +28,14 @@ img {
 }
 
 
+/* 2.画面中央基準 */
+.bg-box {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
 /* 2.白背景 */
 .white {
     box-sizing: border-box;
