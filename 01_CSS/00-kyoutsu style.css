@@ -35,7 +35,7 @@ img {
 
 /* 2.画面中央基準 */
 .bg-box {
-    width: 1400px;
+    width: 1600px;
     margin: 0 auto;
     position: relative;
 }
@@ -68,7 +68,7 @@ img {
     padding: 40px;
 
     /* サイズ */
-    width: 1600px;
+    width: 1300px;
     height: auto;
 
     /* 角丸 */
