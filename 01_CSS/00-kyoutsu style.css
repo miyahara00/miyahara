@@ -5,11 +5,16 @@ body {
 
     /* 文字選択禁止 */
     user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
-        /* 中身の位置 */
+    /* 中身の位置 */
     padding: 40px;
+}
+
+/* 4.リンク下線消す */
+a {
+    text-decoration: none;
 }
 
 /* カーソルを変更 */
@@ -36,9 +41,10 @@ img {
 }
 
 
-/* 2.白背景 */
+/* 3.白背景 */
 .white {
     box-sizing: border-box;
+
 
     /* 色 */
     background-color: #ffffff;
@@ -73,7 +79,7 @@ img {
 }
 
 
-/* 3.注意書き */
+/* 4.注意書き */
 .attention-text {
     /* 色 */
     color: #000000;
@@ -83,21 +89,20 @@ img {
     justify-content: center;
 
     /* 位置 */
-    margin: 0 auto;
+    margin: 30px auto;
     margin-top: 40px;
+    
+    /* サイズ */
+    width: 740px;
 
     /* 文字情報 */
     font-family: "Zen Maru Gothic";
     font-size: 18px;
     text-align: left;
     font-style: normal;
-}
 
-
-/* 4.リンク関連 */
-a {
-    /* 下線消す */
-    text-decoration: none;
+    /* 折り返し しない */
+    white-space: nowrap;
 }
 
 
