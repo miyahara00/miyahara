@@ -45,7 +45,6 @@ img {
 .white {
     box-sizing: border-box;
 
-
     /* 色 */
     background-color: #ffffff;
 
@@ -63,6 +62,7 @@ img {
     /* 位置 */
     margin: 0 auto;
     margin-top: 60px;
+    
 
     /* 中身の位置 */
     padding: 40px;
