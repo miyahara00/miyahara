@@ -58,8 +58,7 @@ img {
     background-position: 14px 14px;
 
     /* 横いっぱいに置く */
-    display: flex;
-    justify-content: center;
+    display: block;
 
     /* 位置 */
     margin: 0 auto;
