@@ -58,13 +58,13 @@ img {
     background-position: 14px 14px;
 
     /* 横いっぱいに置く */
-    display: block;
+    display: flex;
+    justify-content: center;
 
     /* 位置 */
     margin: 0 auto;
     margin-top: 60px;
     
-
     /* 中身の位置 */
     padding: 40px;
 
