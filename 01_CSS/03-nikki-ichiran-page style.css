@@ -4,6 +4,13 @@ body {
 }
 
 
+/* 2.白背景 */
+.white {
+    /* サイズ */
+    width: 1600px;
+}
+
+
 /* 2. text */
 .white .kobetsu-text {
     /* 色 */
