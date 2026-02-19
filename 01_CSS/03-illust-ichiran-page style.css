@@ -1,3 +1,10 @@
+/* 2.白背景 */
+.white {
+    /* サイズ */
+    width: 1600px;
+}
+
+
 /* 位置決め */
 #thumbnail {
     display: flex;
