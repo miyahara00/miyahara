@@ -36,6 +36,7 @@ img {
 /* 2.画面中央基準 */
 .bg-box {
     width: 1600px;
+    min-height: 900px;
     margin: 0 auto;
     position: relative;
 }
