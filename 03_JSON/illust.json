@@ -3,22 +3,22 @@
             "id": 1,
             "title": "テラゾーさんお誕生日Log",
             "image": [
-                "../04_image/output_images/illust/IMG_4266.png",
-                "../04_image/output_images/illust/IMG_2820.png",
-                "../04_image/output_images/illust/IMG_1378.png",
-                "../04_image/output_images/illust/IMG_0110.png"
+                "../04_image/output_images/01.illust/IMG_4266.png",
+                "../04_image/output_images/01.illust/IMG_2820.png",
+                "../04_image/output_images/01.illust/IMG_1378.png",
+                "../04_image/output_images/01.illust/IMG_0110.png"
             ],
             "caption": "過去Log\n新→旧",
-            "tag": ["illust", "テラゾー", "とびユニ"]
+            "tag": ["illust", "テラゾー"]
         },
         {
             "id": 2,
             "title": "とびユニ関連Log",
             "image": [
-                "../04_image/output_images/illust/IMG_0788.png",
-                "../04_image/output_images/illust/IMG_0998.png",
-                "../04_image/output_images/illust/IMG_1024.png",
-                "../04_image/output_images/illust/IMG_2145.png"
+                "../04_image/output_images/01.illust/IMG_0788.png",
+                "../04_image/output_images/01.illust/IMG_0998.png",
+                "../04_image/output_images/01.illust/IMG_1024.png",
+                "../04_image/output_images/01.illust/IMG_2145.png"
             ],
             "caption": "過去Log\n旧→新\n1枚目のテンプレートはお借りしたものです",
             "tag": ["illust", "とびユニ"]
@@ -27,8 +27,8 @@
             "id": 4,
             "title": "あたなる Log",
             "image": [
-                "../04_image/output_images/illust/IMG_1742.png",
-                "../04_image/output_images/illust/IMG_1917.png"
+                "../04_image/output_images/01.illust/IMG_1742.png",
+                "../04_image/output_images/01.illust/IMG_1917.png"
             ],
             "caption": "過去Log",
             "tag": ["illust", "あたなる", "紺野和泉", "白夜零兎"]
@@ -37,7 +37,7 @@
             "id": 5,
             "title": "OC",
             "image": [
-                "../04_image/output_images/illust/IMG_3389.png"
+                "../04_image/output_images/01.illust/IMG_3389.png"
             ],
             "caption": "過去絵です",
             "tag": ["illust", "OC"]
@@ -46,10 +46,19 @@
             "id": 6,
             "title": "ソラちゃん",
             "image": [
-                "../04_image/output_images/illust/IMG_4396.png"
+                "../04_image/output_images/01.illust/IMG_4396.png"
             ],
             "caption": "過去絵です",
             "tag": ["illust", "プリキュア", "ひろプリ"]
+        },
+        {
+            "id": 7,
+            "title": "テラゾーさんお誕生日2025",
+            "image": [
+                "../04_image/output_images/01.illust/IMG_4718.png"
+            ],
+            "caption": "過去絵です",
+            "tag": ["illust", "テラゾー"]
         }
     ]
 }
