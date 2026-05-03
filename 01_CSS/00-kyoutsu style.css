@@ -1,4 +1,5 @@
-/* 1.ページ全体 背景 */
+/* 1.ページ全体 */
+/* 背景 */
 body {
     /* 背景色 */
     background-color: #d1fffc;
@@ -12,7 +13,7 @@ body {
     padding: 40px;
 }
 
-/* 4.リンク下線消す */
+/* リンク下線消す */
 a {
     text-decoration: none;
 }
@@ -32,13 +33,51 @@ img {
     user-select: none;
 }
 
-
-/* 2.画面中央基準 */
+/* 画面中央基準 */
 .bg-box {
     width: 1750px;
-    min-height: 900px;
     margin: 0 auto;
     position: relative;
+}
+
+/* 2.各種文字 */
+.Fascinate {
+    /* 色 */
+    color: #d1fffc;
+
+    /* 横いっぱいに置く */
+    display: block;
+
+    /* 文字情報 */
+    font-family: "Fascinate";
+    text-align: center;
+    font-style: normal;
+}
+
+.KiWiMaru {
+    /* 色 */
+    color: #7c7c7c;
+
+    /* 横いっぱいに置く */
+    display: block;
+
+    /* 文字情報 */
+    font-family: "Kiwi Maru";
+    text-align: center;
+    font-style: normal;
+}
+
+.ZenMaru {
+    /* 色 */
+    color: #7c7c7c;
+
+    /* 横いっぱいに置く */
+    display: block;
+
+    /* 文字情報 */
+    font-family: "Zen Maru Gothic";
+    text-align: left;
+    font-style: normal;
 }
 
 
@@ -63,7 +102,7 @@ img {
     /* 位置 */
     margin: 0 auto;
     margin-top: 60px;
-    
+
     /* 中身の位置 */
     padding: 40px;
 
@@ -91,7 +130,7 @@ img {
     /* 位置 */
     margin: 30px auto;
     margin-top: 40px;
-    
+
     /* サイズ */
     width: 740px;
 
@@ -106,16 +145,35 @@ img {
 }
 
 
-/* 5.コンテンツタイトル文字 */
-.contents-title {
+/* 5.ページ遷移アイコン */
+.home-button {
+    /* 背景色 */
+    background: white;
+    opacity: 0.8;
+
+    /* 位置 */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    /* 重なり */
+    z-index: 1000;
+
+    /* サイズ */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+
+/* 6.一覧ページタイトル */
+.content-title {
     /* 色 */
     color: #7c7c7c;
 
     /* 横いっぱいに置く */
     display: block;
-
-    /* 位置 */
-    margin: 20px;
 
     /* 文字情報 */
     font-family: "Zen Maru Gothic";
