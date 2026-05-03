@@ -12,16 +12,17 @@ fetch('../03_JSON/RAKUGAKI.json')
             box.className = 'img-box';
 
             const img = document.createElement('img');
-            img.src = Array.isArray(art.image) ?
-                art.image[0] // 複数なら1枚目
-                :
+
+            const src = Array.isArray(art.image) ?
+                art.image[0] : // 複数なら1枚目                :
                 art.image; // 1枚ならそのまま
 
+            img.src = src;
             img.alt = `art-${art.id}`;
 
             // クリックで個別ページに飛ぶ (?id=〇 自動付与)
             img.addEventListener('click', () => {
-                window.location.href = `04-rakugaki-kobetsu-page.html?id=${art.id}`;
+                location.href = `04-rakugaki-kobetsu-page.html?id=${art.id}`;
             });
 
             // ドラッグ禁止
@@ -36,4 +37,6 @@ fetch('../03_JSON/RAKUGAKI.json')
             gallery.appendChild(box);
         });
     })
-    .catch(err => console.error('JSON読み込みエラー:', err));
+    .catch(err => {
+        console.error('JSON読み込みエラー:', err)
+    });
