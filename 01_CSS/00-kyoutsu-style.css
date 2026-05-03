@@ -28,6 +28,7 @@ a,
 img {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
+    -webkit-user-drag: none;
     -moz-touch-callout: none;
     -moz-user-select: none;
     user-select: none;
