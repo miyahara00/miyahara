@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // クリックで個別ページに飛ぶ (?id=〇 自動付与)
                 a.addEventListener('click', () => {
-                    window.location.href = `04-nikki-kobetsu page.html?id=${post.id}`;
+                    window.location.href = `04-nikki-kobetsu-page.html?id=${post.id}`;
                 });
 
                 titleList.appendChild(li);
