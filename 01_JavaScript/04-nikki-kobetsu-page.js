@@ -44,6 +44,9 @@ fetch('../03_JSON/nikki.json')
             list.appendChild(li);
         });
 
+const imageRow = document.getElementById('gazou');
+imageRow.innerHTML = "";
+
 (data.images || []).forEach(src => {
     const img = document.createElement('img');
     img.src = src;
