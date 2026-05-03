@@ -105,9 +105,9 @@ async function updateList() {
         // 個別ページ遷移
         img.addEventListener('click', () => {
             if (art.tag.includes('illust')) {
-                window.location.href = `04-illust-kobetsu page.html?id=${art.id}`;
+                window.location.href = `04-illust-kobetsu-page.html?id=${art.id}`;
             } else if (art.tag.includes('RAKUGAKI')) {
-                window.location.href = `04-rakugaki-kobetsu page.html?id=${art.id}`;
+                window.location.href = `04-rakugaki-kobetsu-page.html?id=${art.id}`;
             }
         });
 
