@@ -44,24 +44,9 @@ fetch('../03_JSON/nikki.json')
             list.appendChild(li);
         });
 
-                // 画像
-        const gazou = document.getElementById("gazou");
-        imageArea.innerHTML = "";
+img.addEventListener("dragstart", e => e.preventDefault());
+img.addEventListener("contextmenu", e => e.preventDefault());
 
-        const images = Array.isArray(art.image) ? art.image : [art.image];
-
-        images.forEach(src => {
-            if (!src) return;
-
-            const img = document.createElement("img");
-            img.className = "nikki";
-            img.src = src;
-
-            // 保存対策
-            img.addEventListener("dragstart", e => e.preventDefault());
-            img.addEventListener("contextmenu", e => e.preventDefault());
-
-            gazou.appendChild(img);
         });
         
     })
