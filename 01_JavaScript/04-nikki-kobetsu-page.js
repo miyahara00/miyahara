@@ -44,9 +44,17 @@ fetch('../03_JSON/nikki.json')
             list.appendChild(li);
         });
 
-img.addEventListener("dragstart", e => e.preventDefault());
-img.addEventListener("contextmenu", e => e.preventDefault());
+(data.images || []).forEach(src => {
+    const img = document.createElement('img');
+    img.src = src;
 
+    // 保存・ドラッグ対策
+    img.addEventListener("dragstart", e => e.preventDefault());
+    img.addEventListener("contextmenu", e => e.preventDefault());
+
+    imageRow.appendChild(img);
+});
+        
         });
         
     })
