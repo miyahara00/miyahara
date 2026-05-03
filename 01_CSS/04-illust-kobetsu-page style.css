@@ -1,20 +1,11 @@
-/* 3.イラストタイトル */
-.illust-title {
-    /* 色 */
-    color: #7c7c7c;
-
-    /* サイズ */
-    width: 100%;
-
-    /* 文字情報 */
-    font-family: "Zen Maru Gothic";
+/* 99.イラストタイトル */
+.title {
+    /* 文字サイズ */
     font-size: 50px;
-    text-align: left;
-    font-style: normal;
 }
 
 
-/* 3.絵 */
+/* 98.絵 */
 .illust {
     /* 色 */
     background-color: #f3f3f3;
@@ -33,24 +24,18 @@
 }
 
 
-/* 3.キャプション */
-.illust-caption {
-    /* 色 */
-    color: #7c7c7c;
-
+/* 97.キャプション */
+.caption {
     /* サイズ */
     height: auto;
 
     /* 文字情報 */
-    font-family: "Zen Maru Gothic";
-    font-size: 24px;
-    text-align: left;
-    font-style: normal;
+    font-size: 20px;
     line-height: 1.5;
 }
 
 
-/* 3.タグデザイン */
+/* 96.タグデザイン */
 .illust-tag {
     position: relative;
 
@@ -70,10 +55,11 @@
     /* 影 */
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
 
-    /* 四隅カット */
+    /* 隅カット */
     clip-path: polygon(10px 0, 100% 0, 100% 100%, 10px 100%, 0 calc(100% - 10px), 0 10px);
 }
 
+/* 穴あけ */
 .illust-tag::before {
     position: absolute;
     content: '';
@@ -81,7 +67,7 @@
     /* 色 */
     background: #ffffff;
 
-/* 位置 */
+    /* 位置 */
     transform: translate(-50%, -50%);
     top: 50%;
     left: 5%;
@@ -97,22 +83,18 @@
     pointer-events: none;
 }
 
-
-/* 3.タグ文字 */
-.illust-tag {
+/* タグ文字 */
+.tag {
     /* 色 */
-    color: #000;
+    color: #4d4d4d;
 
     /* 文字情報 */
-    font-family: "Zen Maru Gothic";
     font-size: 20px;
-    text-align: left;
-    font-style: normal;
     line-height: 1.5;
 }
 
 
-/* 3.見た目調整用 */
+/* 96.見た目調整用 */
 .wrap {
     display: grid;
     grid-template-columns: auto 1fr;
