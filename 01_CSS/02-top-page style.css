@@ -5,7 +5,7 @@
 }
 
 
-/* 2.白背景 文字 */
+/* 2-B.白背景 文字 */
 .name-text {
     /* 色 */
     color: #d1fffc;
@@ -14,7 +14,7 @@
     display: block;
 
     /* 位置 */
-    margin-top: -90px;
+    margin-top: -95px;
     margin-left: -44px;
 
     /* 文字 */
@@ -31,7 +31,13 @@
 }
 
 
-/* 3.コンテンツリンクBOX */
+/* 99.コンテンツリンク */
+/* 文字サイズ */
+.KiWiMaru {
+    font-size: 30px;
+}
+
+/* ハコ */
 .white .content-link-box {
     box-sizing: border-box;
 
@@ -54,8 +60,9 @@
     border-radius: 12px;
 }
 
-/* 3.コンテンツリンクBOX inline箇所 */
+/* inline箇所 */
 .white .content-link-box.inline {
+    /* 横に並べて置く */
     display: inline-block;
 
     /* 位置 */
@@ -63,35 +70,16 @@
 }
 
 
-/* 3.コンテンツリンク text */
-.white .content-link-text {
-    /* 色 */
-    color: #7c7c7c;
+/* 98.追記コンテンツ */
+.KiWiMaru--add {
+    /* 横に並べて置く */
+    display: inline-block;
 
-    /* 横いっぱいに置く */
-    display: block;
-
-    /* 文字情報 */
-    font-family: "Kiwi Maru";
-    font-size: 30px;
-    text-align: center;
-    font-style: normal;
-}
-
-
-/* 3.追記コンテンツ */
-.white .add-content-text {
     /* 位置 */
     margin: 20px;
 
-    /* 色 */
-    color: #7c7c7c;
-
-    /* 文字情報 */
-    font-family: "Kiwi Maru";
+    /* 文字サイズ */
     font-size: 18px;
-    text-align: center;
-    font-style: normal;
 
     /* 下線 */
     text-decoration: underline;
