@@ -1,20 +1,25 @@
-/* 位置決め */
+/* 5.一覧ページタイトル */
+.content-title {
+    /* 位置 */
+    margin-bottom: 20px;
+}
+
+/* 98.サムネイル*/
+/* 配置 */
 #thumbnail {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-
-/* 3.ハコ */
+/* ハコ */
 .img-box {
     width: 142px;
     height: 142px;
     overflow: hidden;
 }
 
-
-/* 3.切り取り */
+/* 切り取り */
 .img-box img {
     width: 100%;
     height: 100%;
