@@ -45,7 +45,7 @@ fetch('../03_JSON/nikki.json')
         });
 
                 // 画像
-        const gazou = document.getElementById("imageArea");
+        const gazou = document.getElementById("gazou");
         imageArea.innerHTML = "";
 
         const images = Array.isArray(art.image) ? art.image : [art.image];
