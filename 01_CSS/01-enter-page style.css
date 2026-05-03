@@ -1,4 +1,4 @@
-/* 2.ENTER BOX */
+/* 99.ENTER BOX */
 .white {
     /* サイズ */
     width: 600px;
@@ -9,19 +9,10 @@
 }
 
 
-/* 2.ENTER TEXT */
-.white .enter-text {
-    /* 色 */
-    color: #d1fffc;
-
-    /* 横いっぱいに置く */
-    display: block;
-
-    /* 文字情報 */
-    font-family: "Fascinate";
+/* 99.ENTER TEXT */
+.Fascinate {
+    /* サイズ */
     font-size: 70px;
-    text-align: center;
-    font-style: normal;
 
     /* フチ */
     -webkit-text-stroke: 1px #7e7e7e;
