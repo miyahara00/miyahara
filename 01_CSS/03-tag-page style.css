@@ -4,32 +4,26 @@
 }
 
 
-/* 3.一覧 文字 */
-.white .tag-text {
-    /* 色 */
-    color: #7c7c7c;
-
-    /* 横いっぱいに置く */
-    display: block;
-
-    /* 文字情報 */
-    font-family: "Zen Maru Gothic";
+/* 99.文字 */
+.ZenMaru {
+    /* 文字サイズ */
     font-size: 20px;
-    text-align: left;
-    font-style: normal;
 }
 
 
-/* 3.一覧 チェックボックス */
-.white .tag-text label {
+/* カテゴリ */
+.tag label {
     margin-right: 50px;
+    margin-left: 10px;
 }
 
-.white .tag-text input[type="checkbox"] {
+.tag input[type="checkbox"] {
     margin-right: 10px;
 }
 
-.white .tag-text input[type="radio"] {
+
+/* タグ */
+.tag input[type="radio"] {
     margin-right: 10px;
 }
 
@@ -37,4 +31,16 @@
     margin-right: 40px;
     margin-bottom: 8px;
     display: inline-block;
+}
+
+
+.nothing {
+    /* 色 */
+    color: #4d4d4d;
+
+    /* 位置 */
+    margin-left: 10px;
+
+    /* 文字サイズ */
+    font-size: 16px;
 }
