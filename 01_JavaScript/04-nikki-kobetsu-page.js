@@ -45,7 +45,7 @@ fetch('../03_JSON/nikki.json')
         });
 
                 // 画像
-        const imageArea = document.getElementById("imageArea");
+        const gazou = document.getElementById("imageArea");
         imageArea.innerHTML = "";
 
         const images = Array.isArray(art.image) ? art.image : [art.image];
@@ -54,14 +54,14 @@ fetch('../03_JSON/nikki.json')
             if (!src) return;
 
             const img = document.createElement("img");
-            img.className = "illust";
+            img.className = "nikki";
             img.src = src;
 
             // 保存対策
             img.addEventListener("dragstart", e => e.preventDefault());
             img.addEventListener("contextmenu", e => e.preventDefault());
 
-            imageArea.appendChild(img);
+            gazou.appendChild(img);
         });
         
     })
