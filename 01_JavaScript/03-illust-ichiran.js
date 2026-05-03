@@ -33,7 +33,7 @@ fetch('../03_JSON/illust.json')
 
 
             box.appendChild(img);
-            
+
             gallery.appendChild(box);
         });
     })
