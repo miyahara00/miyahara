@@ -101,7 +101,8 @@ img {
     padding: 40px;
 
     /* サイズ */
-    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
     height: auto;
     box-sizing: border-box;
 
@@ -181,6 +182,8 @@ img {
 }
 
 /* 99.各種対応 */
+
+/* 600より小さいとき */
 @media (max-width: 600px) {
     body {
         transform: scale(0.75);
