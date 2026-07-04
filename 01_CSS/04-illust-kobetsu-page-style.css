@@ -1,7 +1,7 @@
 /* 99.イラストタイトル */
 .title {
     /* 文字サイズ */
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
@@ -12,10 +12,10 @@
 
     /* 位置 */
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10px;
 
     /* サイズ */
-    width: 1000px;
+    width: 600px;
     aspect-ratio: 4 / 3;
     object-fit: contain;
 
@@ -89,7 +89,7 @@
     color: #4d4d4d;
 
     /* 文字情報 */
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
