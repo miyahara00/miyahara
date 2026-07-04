@@ -102,8 +102,7 @@ img {
     padding: 40px;
 
     /* サイズ */
-    width: 1400px;
-    max-width: 100%;
+    width: min(1400px, calc(100% - 80px));
     height: auto;
     box-sizing: border-box;
 
