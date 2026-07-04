@@ -1,47 +1,65 @@
-fetch('../03_JSON/nikki.json')
-    .then(res => res.json())
-    .then(files => {
+const container = document.body;
 
-        const params = new URLSearchParams(location.search);
-        const targetId = params.get("id");
+// JSON取得後
+const data = files.find(f => String(f.id) === targetId);
 
-        const data = files.find(f => String(f.id) === targetId);
+if (!data) {
+    document.body.innerHTML = "<h1>該当データが存在しません</h1>";
+    return;
+}
 
-        if (!data) {
-            document.body.innerHTML = "<h1>該当データが存在しません</h1>";
-            return;
+// ===== ここが重要（両対応） =====
+
+// ① content形式
+if (Array.isArray(data.content)) {
+
+    data.content.forEach(item => {
+
+        if (item.type === "text") {
+            const p = document.createElement("div");
+            p.className = "text";
+            p.innerHTML = item.value.replace(/\n/g, "<br>");
+            container.appendChild(p);
         }
 
-        const container = document.body;
+        if (item.type === "images") {
+            const wrap = document.createElement("div");
+            wrap.id = "gazou";
 
-        data.content.forEach(item => {
-            if (item.type === "text") {
-                const p = document.createElement("div");
-                p.className = "text";
-                p.innerHTML = item.value.replace(/\n/g, "<br>");
-                container.appendChild(p);
-            }
+            item.value.forEach(src => {
+                const img = document.createElement("img");
+                img.src = src;
 
-            if (item.type === "images") {
-                const wrap = document.createElement("div");
-                wrap.id = "gazou";
+                img.addEventListener("dragstart", e => e.preventDefault());
+                img.addEventListener("contextmenu", e => e.preventDefault());
 
-                item.value.forEach(src => {
-                    const img = document.createElement("img");
-                    img.src = src;
+                wrap.appendChild(img);
+            });
 
-                    img.addEventListener("dragstart", e => e.preventDefault());
-                    img.addEventListener("contextmenu", e => e.preventDefault());
+            container.appendChild(wrap);
+        }
+    });
 
-                    wrap.appendChild(img);
-                });
+// ② 旧形式（text/images）
+} else {
 
-                container.appendChild(wrap);
-            }
+    if (data.text) {
+        const p = document.createElement("div");
+        p.className = "text";
+        p.innerHTML = data.text.replace(/\n/g, "<br>");
+        container.appendChild(p);
+    }
+
+    if (data.images) {
+        const wrap = document.createElement("div");
+        wrap.id = "gazou";
+
+        data.images.forEach(src => {
+            const img = document.createElement("img");
+            img.src = src;
+            wrap.appendChild(img);
         });
 
-    })
-    .catch(err => {
-        document.body.innerHTML = "<h1>読み込みエラー</h1>";
-        console.error(err);
-    });
+        container.appendChild(wrap);
+    }
+}
