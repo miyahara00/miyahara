@@ -95,14 +95,14 @@ img {
     display: block;
 
     /* 位置 */
-    margin: 40px auto;
+    margin: 30px auto;
     margin-top: 60px;
 
     /* 中身の位置 */
     padding: 40px;
 
     /* サイズ */
-    width: min(1400px, calc(100% - 80px));
+    width: min(1400px, calc(100% - 60px));
     height: auto;
     box-sizing: border-box;
 
