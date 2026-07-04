@@ -187,7 +187,8 @@ img {
         transform-origin: top center;
     }
     .white {
-        margin: 10px 2px;
+        width: 800px;
+        margin: 10px 20px;
 }
     .attention-text {
         tranceform: scale(0.25);
