@@ -185,6 +185,9 @@ img {
 }
 
 /* 99.各種対応 */
+@media (max-width: 2300px) {
+}
+
 @media (max-width: 1600px) {
 }
 
