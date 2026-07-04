@@ -172,7 +172,7 @@ img {
     /* 横いっぱいに置く */
 
     /* 文字情報 */
-    font-family: "Zen Maru Gothic";
+    font-family: "Zen M
     font-size: 40px;
     text-align: left;
     font-style: normal;
@@ -188,7 +188,7 @@ img {
     }
     .white {
         width: 800px;
-        margin: 10px 20px;
+        margin: 30px 20px;
 }
     .attention-text {
         tranceform: scale(0.25);
