@@ -1,4 +1,4 @@
-const container = document.body;
+const container = document.querySelector(".white");
 
 // ID取得
 const params = new URLSearchParams(location.search);
