@@ -7,6 +7,8 @@
 
 /* 98.絵 */
 .illust {
+    display: block;
+    
     /* 色 */
     background-color: #f3f3f3;
 
@@ -15,6 +17,9 @@
     margin-left: 10px;
 
     /* サイズ */
+    .illust {
+    width: 100%;
+    height: auto;
     aspect-ratio: 4 / 3;
     object-fit: contain;
 
@@ -98,6 +103,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 30px;
+    align-items: start;
 }
 
 #imageArea {
