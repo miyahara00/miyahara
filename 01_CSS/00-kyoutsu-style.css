@@ -134,7 +134,8 @@ img {
     margin-top: 40px;
 
     /* サイズ */
-    width: 740px;
+    width: 100%;
+    max-width: 740px;
 
     /* 文字情報 */
     font-family: "Zen Maru Gothic";
