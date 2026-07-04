@@ -18,7 +18,7 @@ body {
 /* 98.日記内容 */
 .text {
     /* 位置 */
-    margin: 30px;
+    margin: 20px;
 
     /* 文字情報 */
     font-size: 20px;
@@ -31,7 +31,7 @@ body {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 #gazou img {
