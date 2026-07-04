@@ -34,9 +34,7 @@ img {
 /* 画面中央基準 */
     .bg-box {
     max-width: 1920px;
-    width: 100%;
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
 /* 2.各種文字 */
