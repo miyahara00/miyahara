@@ -203,14 +203,13 @@ img {
         transform: none;
         width: 100%;
         padding: 10px;
-    },
-    {
+    }
+    
     .home-button {
         bottom: 20px;
         right: 20px;
         width: 36px;
         height: 36px;
         padding: 12px;
-    }
     }
 }
