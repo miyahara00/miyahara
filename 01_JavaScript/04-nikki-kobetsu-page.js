@@ -28,7 +28,7 @@ fetch('../03_JSON/nikki.json')
             if (item.type === "text") {
                 const p = document.createElement("div");
                 p.className = "text";
-                p.innerHTML = item.value.replace(/\n/g, "<br>");
+                p.textContent = item.value; // ここは安全でおすすめ
                 container.appendChild(p);
             }
 
