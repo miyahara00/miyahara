@@ -9,7 +9,8 @@
         "date": "2026-05-01",
         "title": "らくがき未満",
         "text": "まあまあ前かも",
-        "images": ["../04_image/output_images/03.nikki/IMG_4664.png",
+        "images": [
+            "../04_image/output_images/03.nikki/IMG_4664.png",
             "../04_image/output_images/03.nikki/IMG_4811.png",
             "../04_image/output_images/03.nikki/IMG_4836.png",
             "../04_image/output_images/03.nikki/IMG_4882.png"
@@ -17,6 +18,22 @@
     },
     {
         "id": 3,
+        "date": "2026-07-04",
+        "title": "ざつ",
+        "text": "たいつにあげてたやつとか",
+        "images": [
+            "../04_image/output_images/03.nikki/IMG_4909.png",
+            "../04_image/output_images/03.nikki/IMG_4915.png",
+            "../04_image/output_images/03.nikki/IMG_4917.png",
+            "../04_image/output_images/03.nikki/IMG_4918.png",
+            "../04_image/output_images/03.nikki/IMG_4971.png",
+            "../04_image/output_images/03.nikki/IMG_4978.png",
+            "../04_image/output_images/03.nikki/IMG_4983.png",
+            "../04_image/output_images/03.nikki/IMG_5003.png"
+        ]
+    },
+    {
+        "id": 99,
         "date": "2026-07-04",
         "title": "テストだよ",
         "content": [
