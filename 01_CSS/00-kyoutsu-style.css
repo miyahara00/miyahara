@@ -119,7 +119,8 @@ img {
     color: #000000;
 
     /* ハコごと中央配置 */
-    display: flex; justify-content: center;
+    display: flex;
+    justify-content: center;
 
     /* 位置 */
     margin: 30px auto;
@@ -127,7 +128,7 @@ img {
 
     /* サイズ */
     width: 100%;
-    max-width: 740px;
+    /* max-width: 740px; */
 
     /* 文字情報 */
     font-family: "Zen Maru Gothic";
