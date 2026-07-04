@@ -185,7 +185,7 @@ img {
 }
 
 /* 99.各種対応 */
-@media (min-width: 1620px) {
+@media (min-width: 1640px) {
     .white {
         width: auto;
     }
