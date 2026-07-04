@@ -184,7 +184,7 @@ img {
 }
 
 /* 99.各種対応 */
-@media (max-width: 1800px) {
+@media (min-width: 1800px) {
     .bg-box {
         transform: scale(1);
         transform-origin: top center;
