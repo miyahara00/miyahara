@@ -185,6 +185,6 @@ img {
     }
 
     .attention-text {
-        width: 50vw;
+        max-width: 50vw;
     }
 }
