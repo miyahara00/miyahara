@@ -184,32 +184,12 @@ img {
 }
 
 /* 99.各種対応 */
-@media (max-width: 1500px) {
-    .bg-box{
-        width: 1500px;
-    }
-
-    .white{
-        width: 1460px;
-    }
-    }
-
-@media (max-width: 1300px) {
-        .bg-box{
-        width: 1300px;
-    }
-
-    .white{
-        width: 1100px;
-    }
-    }
-
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
             .bg-box{
-        width: 1100px;
+        width: 1200px;
     }
 
     .white{
-        width: 900px;
+        width: 1100px;
     }
     }
