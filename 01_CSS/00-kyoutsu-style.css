@@ -184,7 +184,7 @@ img {
 }
 
 /* 99.各種対応 */
-@media (min-width: 1800px) {
+@media (min-width: 1400px) {
     .bg-box {
         transform: scale(1);
         transform-origin: top center;
@@ -198,9 +198,19 @@ img {
     }
 }
 
- @media (max-width: 800px) {
+@media (max-width: 800px) {
     .bg-box {
-        transform: scale(0.4);
-        transform-origin: top center;
+        transform: none;
+        width: 100%;
+        padding: 10px;
+    },
+    {
+    .home-button {
+        bottom: 20px;
+        right: 20px;
+        width: 36px;
+        height: 36px;
+        padding: 12px;
+    }
     }
 }
