@@ -8,9 +8,6 @@ body {
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-
-    /* 中身の位置 */
-    padding: 40px;
 }
 
 /* リンク下線消す */
@@ -101,7 +98,7 @@ img {
     display: block;
 
     /* 位置 */
-    margin: 0 auto;
+    margin: 40 auto;
     margin-top: 60px;
 
     /* 中身の位置 */
