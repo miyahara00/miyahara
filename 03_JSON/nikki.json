@@ -51,32 +51,5 @@
         "value": "よわつよばっかり書いとるね"
         }
     ]
-},
-{
-    "id": 99,
-    "date": "2026-07-04",
-    "title": "テストだよ　あああ",
-    "content": [{
-        "type": "text",
-        "value": "aaa"
-        },
-        {
-        "type": "images",
-        "value": [
-            "../04_image/output_images/03.nikki/IMG_4811.png",
-            "../04_image/output_images/03.nikki/IMG_4836.png",
-            "../04_image/output_images/03.nikki/IMG_4882.png"
-        ]},
-        {
-        "type": "text",
-        "value": "bbb"
-        },
-        {
-        "type": "images",
-        "value": [
-            "../04_image/output_images/03.nikki/IMG_4811.png",
-            "../04_image/output_images/03.nikki/IMG_4882.png"
-        ]}
-    ]
 }
 ]
