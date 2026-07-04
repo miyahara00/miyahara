@@ -1,4 +1,4 @@
-const container = document.querySelector(".white");
+const container = document.getElementById("diary-content");
 
 // ID取得
 const params = new URLSearchParams(location.search);
