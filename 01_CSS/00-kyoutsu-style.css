@@ -188,16 +188,28 @@ img {
     .bg-box {
         transform: scale(0.9);
     }
+
+    .attention-text {
+        transform: scale(0.9);
+    }
 }
 
 @media (max-width: 900px) {
     .bg-box {
         transform: scale(0.75);
     }
+
+    .attention-text {
+        transform: scale(0.75);
+    }
 }
 
 @media (max-width: 600px) {
     .bg-box {
+        transform: scale(0.6);
+    }
+
+    .attention-text {
         transform: scale(0.6);
     }
 }
