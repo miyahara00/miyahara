@@ -194,15 +194,14 @@ body {
 
 
 /* 99.各種対応 */
-@media (min-width: 1760px) {
+@media (max-width: 1300px) {
     .white {
-        width: auto;
+        width: 1000px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .white {
-        width: auto;
+        width: 95%;
     }
 }
-
