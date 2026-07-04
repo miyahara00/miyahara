@@ -1,17 +1,10 @@
-const params = new URLSearchParams(location.search);
-const targetId = params.get("id");
-
 fetch('../03_JSON/nikki.json')
     .then(res => res.json())
     .then(files => {
 
-        // IDがない場合
-        if (!targetId) {
-            document.body.innerHTML = "<h1>IDが指定されていません</h1>";
-            return;
-        }
+        const params = new URLSearchParams(location.search);
+        const targetId = params.get("id");
 
-        // データ取得
         const data = files.find(f => String(f.id) === targetId);
 
         if (!data) {
@@ -19,28 +12,32 @@ fetch('../03_JSON/nikki.json')
             return;
         }
 
-        // タイトル
-        document.getElementById('diary-title').textContent = data.title || "";
+        const container = document.body;
 
-        // 本文（改行対応）
-        document.getElementById('diary-text').innerHTML =
-            (data.text || "").replace(/\n/g, "<br>");
+        data.content.forEach(item => {
+            if (item.type === "text") {
+                const p = document.createElement("div");
+                p.className = "text";
+                p.innerHTML = item.value.replace(/\n/g, "<br>");
+                container.appendChild(p);
+            }
 
-        // 画像表示
-        const imageRow = document.getElementById('gazou');
-        imageRow.innerHTML = "";
+            if (item.type === "images") {
+                const wrap = document.createElement("div");
+                wrap.id = "gazou";
 
-        (data.images || []).forEach(src => {
-            if (!src) return;
+                item.value.forEach(src => {
+                    const img = document.createElement("img");
+                    img.src = src;
 
-            const img = document.createElement('img');
-            img.src = src;
+                    img.addEventListener("dragstart", e => e.preventDefault());
+                    img.addEventListener("contextmenu", e => e.preventDefault());
 
-            // 保存・ドラッグ対策
-            img.addEventListener("dragstart", e => e.preventDefault());
-            img.addEventListener("contextmenu", e => e.preventDefault());
+                    wrap.appendChild(img);
+                });
 
-            imageRow.appendChild(img);
+                container.appendChild(wrap);
+            }
         });
 
     })
