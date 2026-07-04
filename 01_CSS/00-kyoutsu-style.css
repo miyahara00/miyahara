@@ -120,7 +120,7 @@ img {
     color: #000000;
 
     /* ハコごと中央配置 */
-    display: flex;
+    display: inline-block;
     justify-content: center;
 
     /* 位置 */
@@ -129,7 +129,7 @@ img {
 
     /* サイズ */
     width: 100%;
-    /* max-width: 740px; */
+    max-width: 740px;
 
     /* 文字情報 */
     font-family: "Zen Maru Gothic";
@@ -139,9 +139,6 @@ img {
 
     /* 折り返し しない */
     white-space: nowrap;
-
-    /* はみ出し部分はスクロール */
-    overflow-x: auto;
 }
 
 
@@ -192,4 +189,7 @@ img {
     .white {
         margin: 30px 5px;
 }
+    .attention-text {
+        tranceform: scale(0.25);
+    }
 }
