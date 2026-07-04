@@ -1,34 +1,42 @@
-[{
+[
+{
     "id": 1,
     "date": "2026-01-18",
     "title": "サイト開設",
     "content": [{
-      "type": "text",
-      "value": "やったー"
-    }],
-    {
+        "type": "text",
+        "value": "やったー"
+    }]
+},
+{
     "id": 2,
     "date": "2026-05-01",
     "title": "らくがき未満",
     "content": [{
-    "type": "text",
-    "value": "まあまあ前かも"
-    },
-    {
-    "type": "images",
-    "value": [
-        "../04_image/output_images/03.nikki/IMG_4664.png",
-        "../04_image/output_images/03.nikki/IMG_4811.png",
-        "../04_image/output_images/03.nikki/IMG_4836.png",
-        "../04_image/output_images/03.nikki/IMG_4882.png"
-        ]
-    }]},
-    {
-        "id": 3,
-        "date": "2026-07-04",
-        "title": "ざつ",
-        "text": "たいつにあげてたやつとか",
-        "images": [
+        "type": "text",
+        "value": "まあまあ前かも"
+        },
+        {
+        "type": "images",
+        "value": [
+            "../04_image/output_images/03.nikki/IMG_4664.png",
+            "../04_image/output_images/03.nikki/IMG_4811.png",
+            "../04_image/output_images/03.nikki/IMG_4836.png",
+            "../04_image/output_images/03.nikki/IMG_4882.png"
+        ]}
+    ]
+},
+{
+    "id": 3,
+    "date": "2026-07-04",
+    "title": "ざつ",
+    "content": [{
+        "type": "text",
+        "value": "たいつにあげてたやつとか"
+        },
+        {
+        "type": "images",
+        "value": [
             "../04_image/output_images/03.nikki/IMG_4909.png",
             "../04_image/output_images/03.nikki/IMG_4915.png",
             "../04_image/output_images/03.nikki/IMG_4917.png",
@@ -37,37 +45,35 @@
             "../04_image/output_images/03.nikki/IMG_4978.png",
             "../04_image/output_images/03.nikki/IMG_4993.png",
             "../04_image/output_images/03.nikki/IMG_5001.png"
-        ]
-    },
-    {
-        "id": 99,
-        "date": "2026-07-04",
-        "title": "テストだよ　あああ",
-        "content": [
-           {
-                "type": "text",
-               "value": "aaa"
-            },
-            {
-                "type": "images",
-                "value": [
-                "../04_image/output_images/03.nikki/IMG_4811.png",
-                "../04_image/output_images/03.nikki/IMG_4836.png",
-                "../04_image/output_images/03.nikki/IMG_4882.png"
-                ]
-            },
-            {
-                "type": "text",
-                "value": "bbb"
-            },
-            {
-                "type": "images",
-                "value": [
-                "../04_image/output_images/03.nikki/IMG_4811.png",
-                "../04_image/output_images/03.nikki/IMG_4836.png",
-                "../04_image/output_images/03.nikki/IMG_4882.png"
-                ]
-            }
-        ]
-    }
+        ]}
+    ]
+},
+{
+    "id": 99,
+    "date": "2026-07-04",
+    "title": "テストだよ　あああ",
+    "content": [{
+        "type": "text",
+        "value": "aaa"
+        },
+        {
+        "type": "images",
+        "value": [
+            "../04_image/output_images/03.nikki/IMG_4811.png",
+            "../04_image/output_images/03.nikki/IMG_4836.png",
+            "../04_image/output_images/03.nikki/IMG_4882.png"
+        ]},
+        {
+        "type": "text",
+        "value": "bbb"
+        },
+        {
+        "type": "images",
+        "value": [
+            "../04_image/output_images/03.nikki/IMG_4811.png",
+            "../04_image/output_images/03.nikki/IMG_4836.png",
+            "../04_image/output_images/03.nikki/IMG_4882.png"
+        ]}
+    ]
+}
 ]
