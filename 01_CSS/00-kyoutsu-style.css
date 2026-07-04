@@ -188,7 +188,7 @@ img {
     }
     .white {
         width: 800px;
-        margin: 30px 20px;
+        margin: 30px auto;
 }
     .attention-text {
         tranceform: scale(0.25);
