@@ -88,7 +88,6 @@ img {
 .white {
     /* 色 */
     background-color: #ffffff;
-    background: red !important;
 
     /* 方眼紙 */
     background-image:
@@ -185,13 +184,10 @@ img {
 }
 
 /* 99.各種対応 */
-@media (max-width: 1000px) {
-    .white {
-        width: 100%;
+@media (max-width: 1200px) {
+            .bg-box {
+        width: 1000px;
     }
-}
-
-@media (max-width: 700px) {
     .white {
         width: 95%;
     }
