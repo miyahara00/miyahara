@@ -102,8 +102,8 @@ img {
     padding: 40px;
 
     /* サイズ */
-    width: 1400px
-    max-width: 100%;
+    width: 100%;
+    max-width: 1400px;
     height: auto;
     box-sizing: border-box;
 
@@ -180,11 +180,10 @@ img {
 
 /* 99.各種対応 */
 @media (max-width: 600px) {
-    .bg-box {
-        width: 100%;
+    body {
+        transform: scale(0.75);
+        transform-origin: top center;
+        width: 133.33%;
     }
-
-    .attention-text {
-        max-width: 50vw;
-    }
+}
 }
