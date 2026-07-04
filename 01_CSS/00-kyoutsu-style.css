@@ -95,7 +95,7 @@ img {
     display: block;
 
     /* 位置 */
-    margin: 60px 20px;
+    margin: 60px auto;
 
     /* 中身の位置 */
     padding: 40px;
