@@ -36,7 +36,7 @@ img {
 
 /* 画面中央基準 */
     .bg-box {
-    max-width: 1750px;
+    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -184,9 +184,9 @@ img {
 }
 
 /* 99.各種対応 */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     .white {
-        width: 1000px;
+        width: 100%;
     }
 }
 
