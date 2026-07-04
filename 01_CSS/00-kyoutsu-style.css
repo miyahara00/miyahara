@@ -184,6 +184,13 @@ img {
 }
 
 /* 99.各種対応 */
+@media (max-width: 1800px) {
+    .bg-box {
+        transform: scale(1);
+        transform-origin: top center;
+    }
+}
+
 @media (max-width: 1200px) {
     .bg-box {
         transform: scale(0.8);
