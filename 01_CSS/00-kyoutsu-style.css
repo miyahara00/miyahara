@@ -184,35 +184,20 @@ img {
 }
 
 /* 99.各種対応 */
-@media (min-width: 1400px) {
-    .bg-box {
-        transform: scale(1);
-        transform-origin: top center;
-    }
-}
-
 @media (max-width: 1200px) {
     .bg-box {
-        transform: none;
-        transform-origin: top center;
-        width: 100%;
-        padding: 10px;
+        transform: scale(0.9);
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .bg-box {
-        transform: none;
-        transform-origin: top center;
-        width: 100%;
-        padding: 10px;
+        transform: scale(0.75);
     }
-    
-    .home-button {
-        bottom: 20px;
-        right: 20px;
-        width: 36px;
-        height: 36px;
-        padding: 12px;
+}
+
+@media (max-width: 600px) {
+    .bg-box {
+        transform: scale(0.6);
     }
 }
