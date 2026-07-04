@@ -180,11 +180,12 @@ img {
 }
 
 /* 99.各種対応 */
-@media (max-width: 1200px) {
-}
-
-@media (max-width: 900px) {
-}
-
 @media (max-width: 600px) {
+    .bg-box {
+        width: 100%;
+    }
+
+    .attention-text {
+        width: 100%;
+    }
 }
