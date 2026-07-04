@@ -191,7 +191,7 @@ img {
     }
 }
 
- @media (max-width: 900px) {
+ @media (max-width: 800px) {
     .bg-box {
         transform: scale(0.8);
         transform-origin: top center;
