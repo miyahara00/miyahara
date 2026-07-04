@@ -140,6 +140,9 @@ img {
 
     /* 折り返し しない */
     white-space: nowrap;
+
+    /* はみ出し部分はスクロール */
+    overflow-x: auto;
 }
 
 
