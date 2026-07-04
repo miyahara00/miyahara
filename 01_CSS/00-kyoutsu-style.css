@@ -183,6 +183,16 @@ img {
     font-style: normal;
 }
 
+body {
+    padding: 0;
+}
+
+.bg-box {
+    padding: 0;
+}
+
+
+
 /* 99.各種対応 */
 @media (min-width: 1760px) {
     .white {
@@ -195,3 +205,4 @@ img {
         width: auto;
     }
 }
+
