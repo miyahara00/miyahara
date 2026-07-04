@@ -183,7 +183,6 @@ img {
     body {
         transform: scale(0.75);
         transform-origin: top center;
-        width: 133.33%;
     }
 }
 }
