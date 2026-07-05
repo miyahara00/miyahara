@@ -204,7 +204,7 @@ img {
 @media (max-width: 740px) {
     .bg-box {
         width: auto;
-        max-width: 100vw
+        max-width: 100vw;
     }
     
     .white {
