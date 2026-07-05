@@ -187,7 +187,7 @@ img {
         transform-origin: top center;
     }
     .white {
-        width: 800px;
+        width: min(1400px, calc(100% - 10px));
         margin: 30px auto;
 }
     .attention-text {
