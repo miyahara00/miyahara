@@ -1,4 +1,4 @@
-/* 1.ページ全体++ */
+/* 1.ページ全体 */
 /* 背景 */
 body {
     /* 背景色 */
@@ -102,6 +102,8 @@ img {
     padding: 40px;
 
     /* サイズ */
+    width: 100%;
+    max-width: 1400px;
     height: auto;
     box-sizing: border-box;
 
