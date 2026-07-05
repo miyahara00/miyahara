@@ -181,7 +181,7 @@ img {
 
 /* 1400より小さいとき */
 @media (max-width: 1400px) {
-    body {
+    .bg-box {
         transform: scale(0.75);
         transform-origin: top center;
     }
@@ -193,7 +193,7 @@ img {
 
 /* 600より小さいとき */
 @media (max-width: 600px) {
-    bg-box {
+    .bg-box {
     transform: scale(0.75);
     transform-origin: top center;
     width: 133.33%;
