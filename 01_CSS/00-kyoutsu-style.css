@@ -120,16 +120,12 @@ img {
     /* 色 */
     color: #000000;
 
-    /* ハコごと中央配置 */
+    /* 横いっぱいに配置 */
     display: block;
 
     /* 位置 */
     margin: 30px auto;
     margin-top: 40px;
-
-    /* サイズ */
-    width: 100%;
-    max-width: 740px;
 
     /* 文字情報 */
     font-family: "Zen Maru Gothic";
