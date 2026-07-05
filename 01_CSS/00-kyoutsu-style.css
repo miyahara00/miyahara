@@ -181,14 +181,16 @@ img {
 
 /* 1400より小さいとき */
 @media (max-width: 1400px) {
-    .bg-box {
-        transform: scale(0.8);
-    }
+.bg-box {
+  width: 100%;
+  height: auto;
+}
 }
 
 /* 600より小さいとき */
 @media (max-width: 600px) {
-    .bg-box {
-        transform: scale(0.8);
-    }
+.bg-box {
+  width: 100%;
+  height: auto;
+}
 }
