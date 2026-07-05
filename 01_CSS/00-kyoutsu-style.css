@@ -1,4 +1,4 @@
-/* 1.ページ全体+++ */
+/* 1.ページ全体 */
 /* 背景 */
 body {
     /* 背景色 */
@@ -188,7 +188,7 @@ img {
     .white {
         width: min(1400px, calc(100% - 40px));
         margin: 20px auto;
-}
+　　　}
 }
 
 /* 600より小さいとき */
@@ -197,4 +197,8 @@ img {
     transform: scale(0.3);
     transform-origin: top center;
     }
+    .white {
+        width: min(1400px, calc(100% - 40px));
+        margin: 20px auto;
+　　　}
 }
