@@ -185,9 +185,7 @@ img {
     .bg-box {
         transform: scale(0.8);
         transform-origin: top center;
-    }
-    .white {
-    margin: 20px;
+        margin: 10px;
     }
 }
 
@@ -196,8 +194,6 @@ img {
     .bg-box {
         transform: scale(0.8);
         transform-origin: top center;
-    }
-    .white {
-    margin: 10px;
+        margin: 10px;
     }
 }
