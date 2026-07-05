@@ -186,11 +186,18 @@ img {
         width: 100%;
         height: auto;
     }
+    .white {
+    padding: 10.px;
+    }
+}
 
 /* 600より小さいとき */
 @media (max-width: 600px) {
     .bg-box {
         width: 100%;
         height: auto;
+    }
+    .white {
+    padding: 5px;
     }
 }
