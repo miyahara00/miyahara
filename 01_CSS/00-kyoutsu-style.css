@@ -179,34 +179,33 @@ img {
 }
 
 /* 99.各種対応 */
-/* 1261より大きく1520より小さいとき */
-@media (min-width: 1261px) and (max-width: 1520px) {
+/* 1281より大きく1520より小さいとき */
+@media (min-width: 1281px) and (max-width: 1520px) {
     .bg-box {
-        width: 1261px;
+        width: 1281px;
     }
 }
 
-/* 1001より大きく1260より小さいとき */
-@media (min-width: 1001px) and (max-width: 1260px) {
+/* 1041より大きく1280より小さいとき */
+@media (min-width: 1041px) and (max-width: 1280px) {
     .bg-box {
-        width: 1001px;
+        width: 1041px;
     }
 }
 
-/* 741より大きく1000より小さいとき */
-@media (min-width: 741px) and (max-width: 1000px) {
+/* 801より大きく1040より小さいとき */
+@media (min-width: 801px) and (max-width: 1040px) {
     .bg-box {
-        width: 741px;
+        width: 801px;
     }
 }
 
-/* 740より小さいとき */
-@media (max-width: 740px) {
+/* 800より小さいとき */
+@media (max-width: 800px) {
     .bg-box {
         width: calc(100% - 20px);
-        max-width: 740px;
+        max-width: 800px;
         min-height: 4000px;
         margin: 0 auto;
     }
 }
-/*
