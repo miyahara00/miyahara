@@ -199,7 +199,9 @@ img {
 }
 
 @media (max-width: 600px) {
-  .bg-box {
-    transform: scale(calc(100vw / 600));
-  }
+.bg-box {
+  width: 1400px;
+  transform-origin: top center;
+  transform: scale(calc(100vw / 1400));
+}
 }
