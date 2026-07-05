@@ -1,6 +1,6 @@
-/* 2.白背景 2個目以降+++ */
+/* 2.白背景 2個目以降 */
 .white + .white {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
