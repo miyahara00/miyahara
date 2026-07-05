@@ -126,6 +126,10 @@ img {
     /* 位置 */
     margin: 30px auto;
     margin-top: 40px;
+    
+    /* サイズ */
+    width: 100%;
+    max-width: 740px;
 
     /* 文字情報 */
     font-family: "Zen Maru Gothic";
@@ -146,7 +150,7 @@ img {
 
     /* 位置 */
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 50px;
 
     /* 重なり */
@@ -185,20 +189,31 @@ img {
     }
 }
 
-/* 1000より小さいとき */
-@media (max-width: 1000px) {
+/*801より大きいとき */
+@media (max-width: 801px) {
     .bg-box {
-        width: 1000px;
+        width: 801px;
         height: auto;
         transform-origin: top center;
     }
 }
 
-/* 600より小さいとき */
-@media (max-width: 600px) {
+/* 800より小さいとき */
+@media (max-width: 800px) {
     .bg-box {
-        width: 600px;
+        width: 800px;
         height: auto;
         transform-origin: top center;
+    }
+    
+    .white {
+        margin: 10px auto;
+        transform-origin: top center;
+    }
+
+    .attention-text {
+    /* サイズ */
+    width: 100%;
+    max-width: 740px;
     }
 }
