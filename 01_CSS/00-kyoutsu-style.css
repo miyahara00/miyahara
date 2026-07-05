@@ -183,7 +183,6 @@ img {
 @media (min-width: 1261px) and (max-width: 1520px) {
     .bg-box {
         width: 1261px;
-        transform-origin: top center;
     }
 }
 
@@ -191,7 +190,6 @@ img {
 @media (min-width: 1001px) and (max-width: 1260px) {
     .bg-box {
         width: 1001px;
-        transform-origin: top center;
     }
 }
 
@@ -199,7 +197,6 @@ img {
 @media (min-width: 741px) and (max-width: 1000px) {
     .bg-box {
         width: 741px;
-        transform-origin: top center;
     }
 }
 
@@ -207,12 +204,15 @@ img {
 @media (max-width: 740px) {
     .bg-box {
         width: auto;
-        max-width: 100vw;
-        transform-origin: top center;
+        max-width: 100vw
     }
     
     .white {
         width: auto;
         margin: 10px;
+    }
+    .attention-text {
+        width: auto;
+        max-width: 100vw;
     }
 }
