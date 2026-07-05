@@ -202,7 +202,7 @@ img {
 
 /* 800より小さいとき */
 @media (max-width: 800px) {
-    .body {
+    body {
         width: 100%;
     }
     .bg-box {
