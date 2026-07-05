@@ -102,7 +102,7 @@ img {
 
     /* サイズ */
     width: 100%;
-    max-width: 1420px;
+    max-width: 1400px;
     height: auto;
     box-sizing: border-box;
 
@@ -194,11 +194,12 @@ img {
 /* 600より小さいとき */
 @media (max-width: 600px) {
     .bg-box {
-    transform: scale(0.6);
-    transform-origin: top center;
+        max-width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
     .white {
         width: min(1400px, calc(100% - 10px));
         margin: 5px auto;
-　　　}
+    }
 }
