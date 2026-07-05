@@ -213,7 +213,10 @@ img {
 
     .attention-text {
     /* サイズ */
-    width: 100%;
-    max-width: 740px;
+    width: auto;
+    max-width: none;
+    transform: scale(calc(100vw / 800));
+    transform-origin: top center;
+    white-space: nowrap;
     }
 }
