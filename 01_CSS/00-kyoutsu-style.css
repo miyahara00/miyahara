@@ -180,7 +180,7 @@ img {
 
 /* 99.各種対応 */
 
-/* 600より小さいとき */
+/* 1400より小さいとき */
 @media (max-width: 1400px) {
     body {
         transform: scale(0.75);
