@@ -37,7 +37,7 @@ img {
 }
 
 /* 画面中央基準 */
-    .bg-box {
+.bg-box {
     width: 1520px;
     max-width: 100%;
     min-height: 1520px;
