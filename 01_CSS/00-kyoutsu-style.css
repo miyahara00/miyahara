@@ -188,8 +188,17 @@ img {
     }
 }
 
-/* 1200より小さく801より大きいとき */
-@media (min-width: 801px) and (max-width: 1201px) {
+/* 1200より小さく1001より大きいとき */
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .bg-box {
+        width: 1001px;
+        height: auto;
+        transform-origin: top center;
+    }
+}
+
+/* 1001より小さく801より大きいとき */
+@media (min-width: 801px) and (max-width: 1001px) {
     .bg-box {
         width: 801px;
         height: auto;
