@@ -186,8 +186,8 @@ img {
         transform-origin: top center;
     }
     .white {
-        width: min(1400px, calc(100% - 40px));
-        margin: 20px auto;
+        width: min(1400px, calc(100% - 30px));
+        margin: 15px auto;
 　　　}
 }
 
