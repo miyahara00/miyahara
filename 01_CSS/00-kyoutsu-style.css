@@ -181,11 +181,9 @@ img {
 /* 99.各種対応 */
 
 /* 1400より小さいとき */
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
     .bg-box {
-        transform: scale(0.8);
-        transform-origin: top center;
-        margin: 30px;
+        transform: scale(calc(100vw / 1920));
     }
 }
 
