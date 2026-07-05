@@ -33,7 +33,7 @@ img {
 
 /* 画面中央基準 */
     .bg-box {
-    width: 1920px;
+    width: 1520px;
     margin: 0 auto;
     transform-origin: top center;
 }
@@ -102,8 +102,6 @@ img {
     padding: 40px;
 
     /* サイズ */
-    width: 100%;
-    max-width: 1400px;
     height: auto;
     box-sizing: border-box;
 
@@ -180,10 +178,10 @@ img {
 
 /* 99.各種対応 */
 
-/* 1400より小さいとき */
-@media (max-width: 1920px) {
+/* 1520より小さいとき */
+@media (max-width: 1520px) {
     .bg-box {
-        transform: scale(calc(100vw / 1920));
+        transform: scale(calc(100vw / 1520));
         transform-origin: top center;
     }
 }
