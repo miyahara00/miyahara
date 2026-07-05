@@ -85,3 +85,13 @@
     text-decoration-color: currentColor;
     text-underline-offset: 6px;
 }
+
+/* 740より小さいとき */
+@media (max-width: 740px) {
+    .white {
+        width: auto;
+        max-width: none;
+        margin: 10px auto;
+        transform-origin: top center;
+    }
+}
