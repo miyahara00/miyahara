@@ -202,8 +202,11 @@ img {
 
 /* 800より小さいとき */
 @media (max-width: 800px) {
-    .bg-box {
+    .body {
         width: 100%;
+    }
+    .bg-box {
+        width: 800px;
         min-height: 2000px;
         margin: 40px auto;
     }
