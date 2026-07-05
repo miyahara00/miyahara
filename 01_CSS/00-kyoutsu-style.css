@@ -179,7 +179,7 @@ img {
 }
 
 /* 99.各種対応 */
-/* 1520より小さく1261より大きいとき */
+/* 1261より大きく1520より小さいとき */
 @media (min-width: 1261px) and (max-width: 1520px) {
     .bg-box {
         width: 1261px;
@@ -188,7 +188,7 @@ img {
     }
 }
 
-/* 1260より小さく1001より大きいとき */
+/* 1001より大きく1260より小さいとき */
 @media (min-width: 1001px) and (max-width: 1260px) {
     .bg-box {
         width: 1001px;
@@ -197,8 +197,8 @@ img {
     }
 }
 
-/* 1001より小さく741より大きいとき */
-@media (min-width: 741px) and (max-width: 1001px) {
+/* 741より大きく1000より小さいとき */
+@media (min-width: 741px) and (max-width: 1000px) {
     .bg-box {
         width: 741px;
         height: auto;
