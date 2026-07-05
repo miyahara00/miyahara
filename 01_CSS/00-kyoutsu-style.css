@@ -183,9 +183,26 @@ img {
 /* 1520より小さいとき */
 @media (max-width: 1520px) {
     .bg-box {
-        width: 100%;
+        width: 1520px;
         height: auto;
-        transform: scale(0.8);
+        transform-origin: top center;
+    }
+}
+
+/* 1000より小さいとき */
+@media (max-width: 1000px) {
+    .bg-box {
+        width: 1000px;
+        height: auto;
+        transform-origin: top center;
+    }
+}
+
+/* 600より小さいとき */
+@media (max-width: 600px) {
+    .bg-box {
+        width: 600px;
+        height: auto;
         transform-origin: top center;
     }
 }
