@@ -190,7 +190,7 @@ img {
 }
 
 /*801より大きいとき */
-@media (max-width: 801px) {
+@media (min-width: 801px) {
     .bg-box {
         width: 801px;
         height: auto;
