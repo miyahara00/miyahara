@@ -194,7 +194,7 @@ img {
 /* 600より小さいとき */
 @media (max-width: 600px) {
     .bg-box {
-    transform: scale(0.3);
+    transform: scale(0.6);
     transform-origin: top center;
     }
     .white {
