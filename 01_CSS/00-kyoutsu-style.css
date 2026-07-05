@@ -207,7 +207,6 @@ img {
 @media (max-width: 740px) {
     .bg-box {
         width: 740px;
-        transform: scale(calc(100vw / 740));
         transform-origin: top center;
     }
     
