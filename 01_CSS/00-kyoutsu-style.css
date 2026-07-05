@@ -34,6 +34,7 @@ img {
 /* 画面中央基準 */
     .bg-box {
     width: 1520px;
+    min-height: 100vh;
     margin: 0 auto;
     transform-origin: top center;
 }
@@ -182,7 +183,6 @@ img {
 @media (min-width: 1261px) and (max-width: 1520px) {
     .bg-box {
         width: 1261px;
-        height: auto;
         transform-origin: top center;
     }
 }
@@ -191,7 +191,6 @@ img {
 @media (min-width: 1001px) and (max-width: 1260px) {
     .bg-box {
         width: 1001px;
-        height: auto;
         transform-origin: top center;
     }
 }
@@ -200,7 +199,6 @@ img {
 @media (min-width: 741px) and (max-width: 1000px) {
     .bg-box {
         width: 741px;
-        height: auto;
         transform-origin: top center;
     }
 }
@@ -209,7 +207,6 @@ img {
 @media (max-width: 740px) {
     .bg-box {
         width: 740px;
-        min-height: 100vh;
         transform-origin: top center;
     }
     
