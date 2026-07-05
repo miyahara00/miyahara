@@ -205,50 +205,17 @@ img {
     }
 }
 
-/* 481より大きく740より小さいとき */
-@media (min-width: 481px) and (max-width: 740px) {
+/* 740より小さいとき */
+@media (max-width: 740px) {
     .bg-box {
-        width: 481px;
-        height: auto;
+        width: 740px;
+        min-height: 100vh;
         transform-origin: top center;
     }
     
     .white {
         width: auto;
         max-width: none;
-        margin: 10px auto;
-        transform-origin: top center;
-    }
-
-    .attention-text {
-    /* サイズ */
-        width: 481px;
-        max-width: none;
-        transform-origin: top center;
-        white-space: nowrap;
-    }
-}
-
-/* 480より小さいとき */
-@media (max-width: 480px) {
-    .bg-box {
-        width: 200px;
-        height: auto;
-        transform-origin: top center;
-    }
-    
-    .white {
-        width: auto;
-        max-width: none;
-        margin: 10px auto;
-        transform-origin: top center;
-    }
-
-    .attention-text {
-    /* サイズ */
-        width: 200px;
-        max-width: none;
-        transform-origin: top center;
-        white-space: nowrap;
+        margin: 10px auto
     }
 }
