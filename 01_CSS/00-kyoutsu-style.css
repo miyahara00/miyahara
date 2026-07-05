@@ -104,9 +104,7 @@ img {
     padding: 40px;
 
     /* サイズ */
-    width: 100%;
-    max-width: 1400px;
-    height: auto;
+    width: 1400px;
     box-sizing: border-box;
 
     /* 角丸 */
@@ -129,8 +127,7 @@ img {
     margin: 40px auto;
     
     /* サイズ */
-    width: 100%;
-    max-width: 740px;
+    width: 740px;
 
     /* 文字情報 */
     font-family: "Zen Maru Gothic";
