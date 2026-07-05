@@ -33,8 +33,6 @@ img {
 
 /* 画面中央基準 */
     .bg-box {
-    display: flex;
-    justify-content: center;
     max-width: 1920px;
     margin: 0 auto;
 }
