@@ -124,7 +124,7 @@ img {
     display: block;
 
     /* 位置 */
-    margin: 30px auto;
+    margin: 0 auto;
     margin-top: 40px;
     
     /* サイズ */
@@ -179,17 +179,17 @@ img {
 }
 
 /* 99.各種対応 */
-/* 1520より小さく1201より大きいとき */
-@media (min-width: 1201px) and (max-width: 1520px) {
+/* 1520より小さく1261より大きいとき */
+@media (min-width: 1261px) and (max-width: 1520px) {
     .bg-box {
-        width: 1201px;
+        width: 1261px;
         height: auto;
         transform-origin: top center;
     }
 }
 
-/* 1200より小さく1001より大きいとき */
-@media (min-width: 1001px) and (max-width: 1200px) {
+/* 1260より小さく1001より大きいとき */
+@media (min-width: 1001px) and (max-width: 1260px) {
     .bg-box {
         width: 1001px;
         height: auto;
@@ -197,19 +197,19 @@ img {
     }
 }
 
-/* 1001より小さく801より大きいとき */
-@media (min-width: 801px) and (max-width: 1001px) {
+/* 1001より小さく741より大きいとき */
+@media (min-width: 741px) and (max-width: 1001px) {
     .bg-box {
-        width: 801px;
+        width: 741px;
         height: auto;
         transform-origin: top center;
     }
 }
 
-/* 800より小さいとき */
-@media (max-width: 800px) {
+/* 740より小さいとき */
+@media (max-width: 740px) {
     .bg-box {
-        width: 800px;
+        width: 740px;
         height: auto;
         transform-origin: top center;
     }
@@ -223,7 +223,7 @@ img {
     /* サイズ */
     width: auto;
     max-width: none;
-    transform: scale(calc(100vw / 800));
+    transform: scale(calc(100vw / 740));
     transform-origin: top center;
     white-space: nowrap;
     }
