@@ -183,7 +183,9 @@ img {
 /* 1520より小さいとき */
 @media (max-width: 1520px) {
     .bg-box {
-        transform: scale(calc(100vw / 1520));
+        width: 100%;
+        height: auto;
+        transform: scale(0.8);
         transform-origin: top center;
     }
 }
