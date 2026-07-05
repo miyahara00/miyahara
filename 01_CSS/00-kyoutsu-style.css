@@ -206,7 +206,8 @@ img {
 /* 740より小さいとき */
 @media (max-width: 740px) {
     .bg-box {
-        width: 740px;
+        width: auto;
+        max-width: 100vw;
         transform-origin: top center;
     }
     
