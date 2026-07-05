@@ -188,22 +188,16 @@ img {
         transform-origin: top center;
     }
     .white {
-        width: min(1400px, calc(100% - 60px));
-        margin: 30px auto;
+        width: min(1400px, calc(100% - 40px));
+        margin: 20px auto;
 }
 }
 
 /* 600より小さいとき */
 @media (max-width: 600px) {
     bg-box {
-        transform: scale(0.75);
-        transform-origin: top center;
-    }
-    .white {
-        width: min(1400px, calc(100% - 60px));
-        margin: 30px auto;
-}
-    .attention-text {
-        tranceform: scale(0.25);
+    transform: scale(0.75);
+    transform-origin: top center;
+    width: 133.33%;
     }
 }
