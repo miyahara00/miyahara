@@ -181,27 +181,16 @@ img {
 /* 99.各種対応 */
 
 /* 1400より小さいとき */
-
+@media (max-width: 1400px) {
+    .bg-box {
+        width: 100%;
+        height: auto;
+    }
 
 /* 600より小さいとき */
-/* @media (max-width: 600px) { */
-/* .bg-box { */
-/*  width: 100%; */
-/*  height: auto; */
-/* } */
-/* } */
-
-
-@media (max-width: 1400px) {
-  .bg-box {
-    transform: scale(calc(100vw / 1400));
-  }
-}
-
 @media (max-width: 600px) {
-.bg-box {
-  width: 1400px;
-  transform-origin: top center;
-  transform: scale(calc(100vw / 1400));
-}
+    .bg-box {
+        width: 100%;
+        height: auto;
+    }
 }
