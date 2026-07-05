@@ -120,8 +120,7 @@ img {
     color: #000000;
 
     /* ハコごと中央配置 */
-    display: inline-block;
-    justify-content: center;
+    display: block;
 
     /* 位置 */
     margin: 30px auto;
