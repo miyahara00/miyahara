@@ -35,6 +35,7 @@ img {
     .bg-box {
     max-width: 1920px;
     margin: 0 auto;
+    transform-origin: top center;
 }
 
 /* 2.各種文字 */
