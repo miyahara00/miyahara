@@ -1,5 +1,10 @@
 /* 1.ページ全体 */
 /* 背景 */
+html, body {
+    width: 1520px;
+    margin: 0;
+}
+
 body {
     /* 背景色 */
     background-color: #d1fffc;
