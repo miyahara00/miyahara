@@ -188,7 +188,7 @@ img {
     .white {
         width: min(1400px, calc(100% - 30px));
         margin: 15px auto;
-　　　}
+    }
 }
 
 /* 600より小さいとき */
