@@ -204,7 +204,6 @@ img {
 @media (max-width: 800px) {
     .bg-box {
         width: 100%;
-        min-width: 800px;
         min-height: 2000px;
         margin: 40px auto;
     }
