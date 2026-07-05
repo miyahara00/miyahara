@@ -212,6 +212,7 @@ img {
     }
     
     .white {
-        width: 720px;
+        width: none;
+        margin: 10px;
     }
 }
