@@ -214,5 +214,6 @@ img {
     .attention-text {
         width: auto;
         max-width: 100vw;
+        white-space: none;
     }
 }
