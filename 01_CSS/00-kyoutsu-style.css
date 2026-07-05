@@ -34,7 +34,7 @@ img {
 /* 画面中央基準 */
 .bg-box {
     width: 1520px;
-    min-height: 1520px;
+    /* min-height: 1520px; */
     margin: 0 auto;
     transform-origin: top center;
 }
