@@ -205,7 +205,7 @@ img {
     .bg-box {
         width: 100%;
         min-width: 800px;
-        min-height: 1000px;
+        min-height: 2000px;
         margin: 0 auto;
     }
     .white {
