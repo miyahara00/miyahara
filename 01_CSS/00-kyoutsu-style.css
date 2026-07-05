@@ -124,8 +124,7 @@ img {
     display: block;
 
     /* 位置 */
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 40px auto;
     
     /* サイズ */
     width: 100%;
