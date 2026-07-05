@@ -183,21 +183,21 @@ img {
 /* 1400より小さいとき */
 @media (max-width: 1400px) {
     .bg-box {
-        width: 100%;
-        height: auto;
+        transform: scale(0.8);
+        transform-origin: top center;
     }
     .white {
-    padding: 10px;
+    margin: 20px;
     }
 }
 
 /* 600より小さいとき */
 @media (max-width: 600px) {
     .bg-box {
-        width: 100%;
-        height: auto;
+        transform: scale(0.8);
+        transform-origin: top center;
     }
     .white {
-    padding: 5px;
+    margin: 10px;
     }
 }
