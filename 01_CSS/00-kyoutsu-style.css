@@ -119,8 +119,9 @@ img {
     /* 色 */
     color: #000000;
 
-    /* 横いっぱいに配置 */
-    display: block;
+    /* ハコごと中央配置 */
+    display: flex;
+    justify-content: center;
 
     /* 位置 */
     margin: 40px auto;
