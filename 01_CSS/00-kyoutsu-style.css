@@ -203,11 +203,8 @@ img {
 /* 740より小さいとき */
 @media (max-width: 740px) {
     .bg-box {
-        width: 740px;
-        min-height: 14800px;
-    }
-    .white {
-        width: auto;
-        margin: 10px;
+        width: calc(100% - 20px);
+        min-height: 10000px;
+        margin: 0 auto;
     }
 }
