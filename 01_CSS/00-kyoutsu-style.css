@@ -178,36 +178,3 @@ img {
     font-style: normal;
 }
 
-/* 99.各種対応 */
-/* 1281より大きく1520より小さいとき */
-@media (min-width: 1281px) and (max-width: 1520px) {
-    .bg-box {
-        width: 1281px;
-    }
-}
-
-/* 1041より大きく1280より小さいとき */
-@media (min-width: 1041px) and (max-width: 1280px) {
-    .bg-box {
-        width: 1041px;
-    }
-}
-
-/* 801より大きく1040より小さいとき */
-@media (min-width: 801px) and (max-width: 1040px) {
-    .bg-box {
-        width: 801px;
-    }
-}
-
-/* 800より小さいとき */
-@media (max-width: 800px) {
-    body {
-        width: 100%;
-    }
-    .bg-box {
-        width: 800px;
-        min-height: 2000px;
-        margin: 40px auto;
-    }
-}
