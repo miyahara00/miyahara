@@ -179,18 +179,17 @@ img {
 }
 
 /* 99.各種対応 */
-
-/* 1520より小さいとき */
-@media (max-width: 1520px) {
+/* 1520より小さく1201より大きいとき */
+@media (min-width: 1201px) and (max-width: 1520px) {
     .bg-box {
-        width: 1520px;
+        width: 1201px;
         height: auto;
         transform-origin: top center;
     }
 }
 
-/*801より大きいとき */
-@media (min-width: 801px) {
+/* 1200より小さく801より大きいとき */
+@media (min-width: 801px) and (max-width: 1201px) {
     .bg-box {
         width: 801px;
         height: auto;
