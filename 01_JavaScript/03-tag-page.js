@@ -85,6 +85,9 @@ async function updateList() {
     if (selectedTag) {
         items = items.filter(item => item.tag.some(tag => tag.trim() === selectedTag));
     }
+    
+    // 新しい順に並び替え
+    items.sort((a, b) => b.id - a.id);
 
     if (items.length === 0) {
         listEl.textContent = "該当する項目はありません";
