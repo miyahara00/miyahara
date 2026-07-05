@@ -184,22 +184,6 @@ img {
 @media (max-width: 1920px) {
     .bg-box {
         transform: scale(calc(100vw / 1920));
-    }
-}
-
-/* 600より小さいとき */
-@media (max-width: 600px) {
-    .bg-box {
-        transform: scale(0.8);
         transform-origin: top center;
-        margin: 10px;
     }
-}
-
-/* 600より小さいとき */
-@media (max-width: 400px) {
-.bg-box {
-  width: 1400px;
-  transform: scale(calc(100vw / 400));
-  transform-origin: top center;
 }
